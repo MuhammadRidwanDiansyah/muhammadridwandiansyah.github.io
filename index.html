@@ -1,610 +1,1500 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-
-<!-- Mirrored from exill.dk/demo/kitzu/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2020 16:59:42 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<html lang="id">
 <head>
-  <!-- Required meta tags-->
   <meta charset="utf-8">
-  <!-- Title-->
-  <title>Hello, I'am Muhammad Ridwan Diansyah</title>
-  <!-- Description-->
-  <meta name="description" content="Personal Portfolio Template">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Favicons-->
+  <title>Muhammad Ridwan Diansyah | Full-Stack Software Engineer & Frontend Specialist</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio Muhammad Ridwan Diansyah - Full-Stack Software Engineer berpengalaman dalam React.js, Java Spring Boot, Microfrontends, Microservices, Core Banking, Supply Chain Management, dan Software QA.">
+  <meta name="keywords" content="Muhammad Ridwan Diansyah, Software Engineer, Frontend Developer, Backend Developer, Full Stack Developer, React.js, Java Spring Boot, Microfrontend, Microservices, Bandung, Indonesia">
+  <meta name="author" content="Muhammad Ridwan Diansyah">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Muhammad Ridwan Diansyah | Full-Stack Software Engineer">
+  <meta property="og:description" content="Membangun sistem enterprise berskala besar: Core Banking, Supply Chain Management, SIMPeL 4 Ombudsman RI dengan React, Java Spring Boot, dan Microservices.">
+  <meta property="og:image" content="img/ridwa.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-  <!-- Web fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
-  <!-- CSS vendors-->
-  <link rel="stylesheet" href="css/bootstrap-custom.css">
-  <link rel="stylesheet" href="css/ionicons.min.css">
-  <link rel="stylesheet" href="css/tiny-slider.css">
-  <link rel="stylesheet" href="css/lity.min.css">
-  <link rel="stylesheet" href="css/simplebar.min.css">
-  <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
-  <!-- Main CSS-->
-  <link rel="stylesheet" href="css/main.css">
-  <!-- CSS Color scheme-->
-  <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkgreen.css">
-  <!-- Custom CSS (Add your custom CSS styles to this file)-->
-  <link rel="stylesheet" href="css/custom.css">
-  <!-- removeIf(customizerDist)-->
-  <link rel="stylesheet" href="./customizer/main.css">
-  <!-- endremoveIf(customizerDist)-->
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Modern Design System Stylesheet -->
+  <link rel="stylesheet" href="css/modern.css">
 </head>
 
-<body class="theme-dark">
-  <!-- Preloader-->
-  <div class="preloader">
-    <div class="preloader-block">
-      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
-    </div>
-  </div>
-  <div id="overlay-effect"></div>
-  <!-- Navbar-->
-  <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
-      <!-- Navbar Logo-->
-      </a>
-    <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
-    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
-      <!-- Navbar menu-->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Home-->
-  <section class="home-area element-cover-bg" id="home" style="background-image:url(img/gambar.png)">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center">
-        <div class="col-12 col-lg-8 home-content text-center">
-          <h1 class="home-name">Muhammad Ridwan <span>Diansyah</span></h1>
-          <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b class="is-visible">Programmer</b><b>Web Developer</b><b>UI/UX Designer</b><b>System Analyzt</b><b>Freelancer</b></span></h4>
+<body>
+  <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+  <header>
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#home" class="brand-logo">
+          <div class="brand-badge">RD</div>
+          <span class="brand-name">Ridwan Diansyah</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+            <i class="fa-solid fa-sun"></i>
+          </button>
+          <a href="#contact" class="btn-hire">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Hire Me</span>
+          </a>
+          <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
       </div>
-    </div>
-    <div class="fixed-wrapper">
-      <!-- Languages list-->
-      <div class="fixed-block block-left">
-        <ul class="list-unstyled languages-list">
-          <li><a href="#0"><span class="single-language">IND</span></a></li>
-          <li><a href="#0"><span class="single-language">ENG</span></a></li>
-        </ul>
-      </div>
-      <!-- Social media icons-->
-      <div class="fixed-block block-right">
-        <ul class="list-unstyled social-icons">
-          <li><a target="_blank" href="https://github.com/MuhammadRidwanDiansyah"><i class="icon ion-logo-github"></i></a></li>
-        </ul>
+    </nav>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-status">
+            <span class="status-pulse"></span>
+            <span>Available for Full-Time & High-Impact Engineering Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Muhammad Ridwan <br><span class="gradient-text">Diansyah</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span>I build</span>
+            <span class="hero-role-text" id="typing-text">Full-Stack Software Engineer</span>
+            <span class="typing-cursor"></span>
+          </div>
+
+          <p class="hero-bio">
+            Lulusan <strong>Sistem Informasi (IPK 3.51)</strong> dengan pengalaman membangun dan mengintegrasikan sistem berskala enterprise: <strong>Supply Chain Management (SCM)</strong>, <strong>Core Banking</strong>, <strong>Dealer Management System (DMS)</strong>, dan <strong>SIMPeL 4 Ombudsman RI</strong>. Menguasai arsitektur <strong>Microfrontend</strong> & <strong>Microservices</strong> dengan React.js, Java Spring Boot, PostgreSQL, SQL Server, serta peningkatan kualitas kode melalui <strong>Jest Unit Testing (&gt;80% Coverage)</strong> dan <strong>SonarQube</strong>.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#experience" class="btn btn-primary">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>View Experience</span>
+            </a>
+            <a href="img/CV - Muhammad Ridwan Diansyah.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <div class="hero-social-links">
+            <a href="https://github.com/MuhammadRidwanDiansyah" target="_blank" class="social-icon-btn" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://wa.me/6287735518578" target="_blank" class="social-icon-btn" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="mailto:ridwandiansyah2@gmail.com" class="social-icon-btn" aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-card">
+            <div class="avatar-image-frame">
+              <img src="img/ridwa.jpg" alt="Muhammad Ridwan Diansyah" class="avatar-image">
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-pill pill-react">
+              <i class="fa-brands fa-react"></i>
+              <span>React & Microfrontend</span>
+            </div>
+            <div class="floating-pill pill-spring">
+              <i class="fa-solid fa-leaf"></i>
+              <span>Java Spring Boot</span>
+            </div>
+            <div class="floating-pill pill-postgres">
+              <i class="fa-solid fa-database"></i>
+              <span>PostgreSQL & SQL</span>
+            </div>
+            <div class="floating-pill pill-jest">
+              <i class="fa-solid fa-vial-circle-check"></i>
+              <span>Jest Unit Test &gt;80%</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- About lightbox-->
-  <div class="lightbox-wrapper" id="about" data-simplebar>
-    <div class="container">
-      <div class="lightbox-close">
-        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="lightbox-content">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-heading page-heading">
-                  <p class="section-description">Get to know me</p>
-                  <h2 class="section-title">Tentang Saya</h2>
-                  <div class="animated-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Info section-->
-            <div class="info-section single-section">
-              <div class="row align-items-center">
-                <!-- Picture part-->
-                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="img/ridwa.png" alt="About Picture"></div>
-                <!-- Content part-->
-                <div class="col-12 col-lg-7 info-content">
-                  <div class="content-block">
-                    <h2 class="content-subtitle">Who am i?</h2>
-                    <h6 class="content-title">I'm Muhammad Ridwan Diansyah, a Web Developer, System Analyzt and UI/UX Designer</h6>
-                    <div class="content-description">
-                      <p>Saya Muhammad Ridwan Diansyah merupakan fresh graduated dari mahasiswa Institut Digital Ekonomi LPKIA dengan jurusan Sistem Informasi. Memiliki pengalaman bekerja sebagai Front End Developer di PT Sang Byte Indonesia dengan mengembangkan sebuah website Sistem Informasi Manajemen Penyelesaian Laporan (Ombudsman RI) menggunakan bahasa pemrograman Javascript (Vue Js). Saya memiliki minat berkarir sebagai Back-end Developer, Font-end Developer, System Analyst, Quality Assurance, Data Analyst dan mahir dalam menggunakan bahasa pemrograman Java, Python, PHP, Javascript, Typescript dan Node JS.</p>
-                    </div>
-                    <address class="content-info">
-                      <div class="row">
-                        <div class="col-12 col-md-6 single-info"><span>Name:</span>
-                          <p>Muhammad Ridwan Diansyah</p>
-                        </div>
-                        <div class="col-12 col-md-6 single-info"><span>Email:</span>
-                          <p><a href="mailto:emma@example.com">ridwandiansyah3@gmail.com</a></p>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12 col-md-6 single-info"><span>Age:</span>
-                          <p>22</p>
-                        </div>
-                        <div class="col-12 col-md-6 single-info"><span>From:</span>
-                          <p>Bandung, Indonesia</p>
-                        </div>
-                      </div>
-                    </address>
-                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" target="_blank" href="img/CV - Muhammad Ridwan Diansyah.pdf" role="button">Download CV</a>
-                      <ul class="list-unstyled list-inline content-follow">
-                        <li class="list-inline-item"><a target="_blank" href="https://github.com/MuhammadRidwanDiansyah"><i class="icon ion-logo-github"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>           
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Resume lightbox-->
-  <div class="lightbox-wrapper" id="resume" data-simplebar>
-    <div class="container">
-      <div class="lightbox-close">
-        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="lightbox-content">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-heading page-heading">
-                  <p class="section-description">Check out my Resume</p>
-                  <h2 class="section-title">Resume</h2>
-                  <div class="animated-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Resume section-->
-            <div class="resume-section single-section">
-              <div class="row">
-                <!-- Education part-->
-                <div class="col-12 col-md-6">
-                  <div class="col-block education">
-                    <h3 class="col-title">Education</h3>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">S1 Sistem Informasi</h5><span class="item-details"><b>Insitut Digital Ekonomi LPKIA / 2019 - Sekarang</b></span>
-                      <p class="item-description">Mengikuti workshop pembelajaran web menggunakan wordpress dan mengenai printing 3D.</p>
-                      <p class="item-description">Membuat artikel jurnal ilmiah tentang pengelolaan jasa laundry berbasis website.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Teknik Komputer Jaringan</h5><span class="item-details"><b>SMK Medikacom Bandung / 2016 - 2019</b></span>
-                      <p class="item-description">Mengadakan kegiatan perlombaan seeting konfigurasi linux debian server dengan antar satu angkatan.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Experience part-->
-                <div class="col-12 col-md-6">
-                  <div class="col-block experience">
-                    <h3 class="col-title">Experience</h3>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Programmer</h5><span class="item-details"><b>Kantor Kelurahan Cicaheum (Bandung, Indonesia) <br> Agustus 2021 - September 2021</b></span>
-                      <p class="item-description">Membantu mencatat data kependudukan dan membuat surat pada bagian pelayanan.</p>
-                      <p class="item-description">Meningkatkan efisiensi pengelolaan data kependudukan dengan membuat website pengolahan data kependudukan menggunakan bahasa pemrograman PHP.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Asisten Dosen </h5><span class="item-details"><b>Institut Digital Ekonomi LPKIA (Bandung, Indonesia) <br> Oktober 2020 - Juni 2022</b></span>
-                      <p class="item-description">Membantu pekerjaan dosen dalam mengajarkan materi yang disampaikan dan membantu mahasiswa adik tingkat apabila kesulitan dalam bahasa pemrograman yang tidak bisa dimengerti.</p>
-                      <p class="item-description">Meningkatkan komunikasi antara dosen dan mahasiswa sehingga mahasiswa mengerti materi apa yang di bahas oleh dosen.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Front End Developer </h5><span class="item-details"><b>PT Sang Byte Indonesia (Bandung, Indonesia) <br> Agustus 2022 - November 2022</b></span>
-                      <p class="item-description">Mengembangkan sebuah website Sistem Informasi Manajemen Penyelesaian Laporan (Ombudsman RI) menggunakan bahasa pemrograman Javascript-VueJs.</p>
-                      <p class="item-description">Mengembangkan perangkat lunak menggunakan metode agile development.</p>
-                      <p class="item-description">Mengelola dan menyelesaikan alur kerja sprint plan.</p>
-                      <p class="item-description">Memperbaiki bug fixing.</p>
-                      <p class="item-description">Menerapkan desain responsif untuk program di semua device.</p>
-                      <p class="item-description">Achievement pekerjaan: Berkolaborasi dengan Back End Developer dan Web Designer untuk melakukan pengujian kegunaan program.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Programmer </h5><span class="item-details"><b>Rumah Sakit Umum Pindad (Bandung, Indonesia) <br> Februari 2023 - Juni 2023</b></span>
-                      <p class="item-description">Magang penelitian tugas akhir dengan memberikan rekomendasi sistem pakar menggunakan algoritma Naïve Bayes dengan Laplace Correction.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Skills section-->
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="section-heading">
-                    <p class="section-description">My level of knowledge in some tools</p>
-                    <h2 class="section-title">My Skills</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
 
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/Java.png" alt="Java" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Java</h4>
-                    <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/Python.png" alt="Python" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Python</h4>
-                    <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/php.png" alt="PHP" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">PHP</h4>
-                    <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/laravel.png" alt="laravel" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Laravel Framework</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/node.png" alt="nodejs" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Node JS</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/expressjs.png" alt="expressjs" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Express JS</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/MongoDBS.png" alt="mongodb" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Mongo DB</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/sql.png" alt="sql" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">SQL Server & MySQL </h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/figma.png" alt="figma" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Figma</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/android.png" alt="android" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Android Studio (Beginner)</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/reactjs.png" alt="reactjs" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">React JS</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/vue.png" alt="vue" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Vue JS</h4>
-                    <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
-                  </div>
-                </div>
-                <div class="col-md-2 col-lg-2 text-center mb-5">
-                  <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                    <span class="icon">
-                      <span><img src="img/icon/typescript.png" alt="typescript" class="img-fluid"></span>
-                    </span>
-                    <h4 class="mb-4">Typescript</h4>
-                  </div>
-                </div>
-              </div>         
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio lightbox-->
-  <div class="lightbox-wrapper" id="portfolio" data-simplebar>
+  <!-- ==========================================================================
+       Metrics Section
+       ========================================================================== -->
+  <section class="metrics-section" id="metrics-bar">
     <div class="container">
-      <div class="lightbox-close">
-        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="lightbox-content">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-heading page-heading">
-                  <p class="section-description">Showcasing some of my best work</p>
-                  <h2 class="section-title">Portfolio</h2>
-                  <div class="animated-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Portfolio section-->
-            <div class="portfolio-section single-section">
-              <div class="row">
-                <!-- Filter nav-->
-                <div class="col-12">
-                  <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
-                    <li class="list-inline-item tab-active" data-filter="*">Semua</li>
-                  </ul>
-                </div>
-              </div>
-              <!-- Thumbnail list-->
-              <div class="portfolio-grid row">
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/kelurahan.png" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/kelurahan.png">
-                      <div class="item-content">
-                        <h6 class="content-title">Sistem Informasi Pengolahan Data Kependudukan</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/penjualan.png" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/penjualan.png">
-                      <div class="item-content">
-                        <h6 class="content-title">Sistem Informasi Penjualan Handphone</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/harakiri.png" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/harakiri.png">
-                      <div class="item-content">
-                        <h6 class="content-title">Ecommerce CMS WordPress</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/postman.png" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/postman.png">
-                      <div class="item-content">
-                        <h6 class="content-title">Web Service API Rental Mobil</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/pengaduan.png" data-lightbox>
-                  <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/pengaduan.png">
-                    <div class="item-content">
-                      <h6 class="content-title">Sistem Informasi Manajemen Penyelesaian Laporan (Ombudsman RI)</h6><span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/naivebayesdenganlaplace.png" data-lightbox>
-                  <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/naivebayesdenganlaplace.png">
-                    <div class="item-content">
-                      <h6 class="content-title">Implementasi Algoritma Naïve Bayes Dengan Laplace Correction Untuk Memprediksi Penyakit Jantung Koroner</h6><span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a></div>
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/akurasimetode.png" data-lightbox>
-                  <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/akurasimetode.png">
-                    <div class="item-content">
-                      <h6 class="content-title">Implementasi Algoritma Naïve Bayes Dengan Laplace Correction Untuk Memprediksi Penyakit Jantung Koroner (Akurasi)</h6><span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a></div>
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/bestmeat.png" data-lightbox>
-                  <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/bestmeat.png">
-                    <div class="item-content">
-                      <h6 class="content-title">Bestmeat Stok Sembako</h6><span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4"><a class="portfolio-item" href="img/antarlaundry.png" data-lightbox>
-                  <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/antarlaundry.png">
-                    <div class="item-content">
-                      <h6 class="content-title">UI/UX Design Antar Laundry</h6><span class="content-more">More Info</span>
-                    </div>
-                  </div>
-                </a></div>
-              </div>
-            </div>
-          </div>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-value" data-target="3" data-suffix="+">3+</div>
+          <div class="metric-label">Years Experience</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" data-target="25" data-suffix="+">25+</div>
+          <div class="metric-label">Enterprise SCM Modules</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" data-target="100" data-suffix="K+">100K+</div>
+          <div class="metric-label">Async Rows Processed</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" data-target="80" data-suffix="%+">&gt;80%</div>
+          <div class="metric-label">SonarQube Jest Coverage</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" data-target="3.51" data-decimals="2">3.51</div>
+          <div class="metric-label">IPK S1 Sistem Informasi</div>
         </div>
       </div>
     </div>
-  </div>
-  
-  <!-- Contact lightbox-->
-  <div class="lightbox-wrapper" id="contact" data-simplebar>
+  </section>
+
+  <!-- ==========================================================================
+       About Section
+       ========================================================================== -->
+  <section class="section" id="about">
     <div class="container">
-      <div class="lightbox-close">
-        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-regular fa-user"></i> About Me</span>
+        <h2 class="section-title">Architecting Scalable <span>Full-Stack & Enterprise Systems</span></h2>
+        <p class="section-subtitle">Kombinasi kapabilitas Frontend modern, arsitektur Microservices backend berkinerja tinggi, dan standar Quality Assurance yang ketat.</p>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="lightbox-content">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-heading page-heading">
-                  <p class="section-description">Feel free to contact me anytimes</p>
-                  <h2 class="section-title">Get in Touch</h2>
-                  <div class="animated-bar"></div>
-                </div>
+
+      <div class="about-grid">
+        <div class="about-story">
+          <p>
+            Lulusan <strong>Sistem Informasi</strong> dengan pengalaman komprehensif dalam siklus hidup pengembangan aplikasi berbasis web, mulai dari <strong>Frontend Development</strong>, <strong>Backend Development</strong>, hingga <strong>Software Quality Assurance</strong>.
+          </p>
+          <p>
+            Memiliki pengalaman nyata membangun dan mengintegrasikan sistem berskala industri seperti <strong>SIMPeL 4 Ombudsman RI</strong>, <strong>Core Banking</strong>, <strong>Bank Fronting</strong>, <strong>Dealer Management System (DMS)</strong>, dan <strong>Supply Chain Management (SCM)</strong> menggunakan stack teknologi modern mencakup React.js, AngularJS, Vue.js, Java Spring Boot, Node.js, SQL Server, dan PostgreSQL.
+          </p>
+
+          <div class="about-highlight-box">
+            <i class="fa-solid fa-quote-left"></i>
+            <span>
+              "Terampil dalam merancang RESTful API, mengimplementasikan arsitektur Microfrontend & Microservices, mengoptimalkan performa aplikasi, serta meningkatkan kualitas kode melalui Unit Test, Debugging, dan Code Refactoring dalam ekosistem Agile."
+            </span>
+          </div>
+
+          <p>
+            Terbiasa bekerja secara kolaboratif lintas disiplin bersama Business Analyst, Project Manager, dan Quality Assurance dalam tim berbasis Agile untuk menghasilkan produk perangkat lunak yang fungsional, andal, berperforma tinggi, dan siap bertumbuh bersama kebutuhan bisnis.
+          </p>
+        </div>
+
+        <div class="credentials-card">
+          <h3 class="credentials-card-title">
+            <i class="fa-solid fa-address-card"></i>
+            <span>Professional Profile Details</span>
+          </h3>
+
+          <div class="credentials-list">
+            <div class="credential-item">
+              <div class="credential-icon"><i class="fa-solid fa-user-graduate"></i></div>
+              <div class="credential-details">
+                <h4>Pendidikan</h4>
+                <p>S1 Sistem Informasi — LPKIA (IPK 3,51)</p>
               </div>
             </div>
-            <!-- Contact section-->
-            <div class="contact-section single-section">
-              <div class="row">
-                <!-- Contact form-->
-                <div class="col-12 col-lg-7">
-                  <form class="contact-form" id="contact-form" action="">
-                    <h4 class="content-title">Message Me</h4>
-                    <div class="row">
-                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
-                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
-                      <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
-                      <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
-                      <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
-                        <p class="contact-feedback"></p>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <!-- Contact info-->
-                <div class="col-12 col-lg-5">
-                  <div class="contact-info">
-                    <h4 class="content-title">Contact Info</h4>
-                    <p class="info-description">Always available for freelance work if the right project comes along, Feel free to contact me!</p>
-                    <ul class="list-unstyled list-info">
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-logo-ionic"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Name</h6><span class="info-value">Muhammad Ridwan Diansyah</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-map"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Location</h6><span class="info-value">Jalan waas batununggal, Bandung, Indonesia.</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-call"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Call Me</h6><span class="info-value"><a href="tel:+6287735518578">+62 877-3551-8578</a></span>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-send"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Email Me</h6><span class="info-value"><a href="mailto:ridwandiansyah2@gmail.com">ridwandiansyah2@gmail.com</a></span>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+
+            <div class="credential-item">
+              <div class="credential-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="credential-details">
+                <h4>Domisili</h4>
+                <p>Bandung, Jawa Barat, Indonesia</p>
+              </div>
+            </div>
+
+            <div class="credential-item">
+              <div class="credential-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <div class="credential-details">
+                <h4>Spesialisasi Utama</h4>
+                <p>Full-Stack, Microfrontends, Microservices & SQA</p>
+              </div>
+            </div>
+
+            <div class="credential-item">
+              <div class="credential-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="credential-details">
+                <h4>Email</h4>
+                <p>ridwandiansyah2@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="credential-item">
+              <div class="credential-icon"><i class="fa-solid fa-language"></i></div>
+              <div class="credential-details">
+                <h4>Bahasa</h4>
+                <p>Bahasa Indonesia (Native), English (Working)</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- removeIf(customizerDist)-->
-  <div class="demo-tool">
-    <div class="tool-wrapper">
-      <span class="tool-toggler"><i class="icon ion-md-settings"></i></span>
-      <div class="tool-box">
-        <ul class="list-inline single-block color-switcher">
-          <li class="list-inline-item" style="background-color: #2c31ff;" data-path="css/colors/main-blueviolet.css"></li>
-          <li class="list-inline-item" style="background-color: #3460D1;" data-path="css/colors/main-nightskyblue.css"></li>
-          <li class="list-inline-item" style="background-color: #EE3158;" data-path="css/colors/main-redpink.css"></li>
-          <li class="list-inline-item" style="background-color: #007bff;" data-path="css/colors/main-blue.css"></li>
-          <li class="list-inline-item" style="background-color: #17a2b8;" data-path="css/colors/main-cyan.css"></li>
-          <li class="list-inline-item" style="background-color: #3365b0;" data-path="css/colors/main-darkblue.css"></li>
-          <li class="list-inline-item" style="background-color: #a435b7;" data-path="css/colors/main-darkmagenta.css"></li>
-          <li class="list-inline-item" style="background-color: #c93e70;" data-path="css/colors/main-darkpink.css"></li>
-          <li class="list-inline-item" style="background-color: #bf2a3d;" data-path="css/colors/main-darkred.css"></li>
-          <li class="list-inline-item" style="background-color: #28a745;" data-path="css/colors/main-green.css"></li>
-          <li class="list-inline-item" style="background-color: #6610f2;" data-path="css/colors/main-indigo.css"></li>
-          <li class="list-inline-item" style="background-color: #fd7e14;" data-path="css/colors/main-orange.css"></li>
-          <li class="list-inline-item" style="background-color: #e83e8c;" data-path="css/colors/main-pink.css"></li>
-          <li class="list-inline-item" style="background-color: #6f42c1;" data-path="css/colors/main-purple.css"></li>
-          <li class="list-inline-item" style="background-color: #dc3545;" data-path="css/colors/main-red.css"></li>
-          <li class="list-inline-item" style="background-color: #20c997;" data-path="css/colors/main-teal.css"></li>
-          <li class="list-inline-item" style="background-color: #333;" data-path="css/colors/main-dark.css"></li>
-          <li class="list-inline-item" style="background-color: #78b230;" data-path="css/colors/main-yellowgreen.css"></li>
-          <li class="list-inline-item" style="background-color: #E16F7C;" data-path="css/colors/main-tangopink.css"></li>
-          <li class="list-inline-item" style="background-color: #6F73D2;" data-path="css/colors/main-moodyblue.css"></li>
-          <li class="list-inline-item" style="background-color: #664C43;" data-path="css/colors/main-brown.css"></li>
-          <li class="list-inline-item" style="background-color: #4770D9;" data-path="css/colors/main-royalblue.css"></li>
-          <li class="list-inline-item" style="background-color: #ffb100;" data-path="css/colors/main-darkyellow.css"></li>
-        </ul>
-        <div class="single-block buy-btn mb-0">
-          <a class="btn btn-success btn-sm" target="_blank" href="https://themeforest.net/item/kitzu-personal-portfolio-template/26075107" role="button">Buy Kitzu</a>
+
+      <!-- Core Pillars -->
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-desktop"></i></div>
+          <h3>Frontend Engineering</h3>
+          <p>Pengembangan arsitektur Microfrontend, Reusable Components, state management Redux, serta UI responsif dengan React.js, Vue.js, dan AngularJS.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Backend & Microservices</h3>
+          <p>Layanan backend terdistribusi dengan Java 17 & Spring Boot 3.2, RESTful API terstandarisasi, JWT Authentication, Spring Security, dan asynchronous processing.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-database"></i></div>
+          <h3>Database & Performance</h3>
+          <p>Desain skema dan optimasi query pada PostgreSQL dan SQL Server, Stored Procedures, Server-Side Pagination, serta migrasi data terstruktur.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Quality Assurance & Testing</h3>
+          <p>Inisialisasi Jest unit test dengan coverage &gt;80%, analisis SonarQube, Functional & Regression Testing, serta validasi algoritma CPM/Gantt Chart.</p>
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- ==========================================================================
+       Experience Section (Interactive Timeline)
+       ========================================================================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Work Experience</span>
+        <h2 class="section-title">Career <span>Experience Timeline</span></h2>
+        <p class="section-subtitle">Perjalanan profesional dalam merancang, mengembangkan, dan menguji sistem perangkat lunak skala enterprise dan perbankan.</p>
+      </div>
+
+      <div class="experience-timeline">
+        <!-- 1. Besmart - Frontend Developer (Present) -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Frontend Developer
+                  <span class="timeline-badge badge-present">Current Role</span>
+                  <span class="timeline-badge badge-role">Microfrontend</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-building"></i> PT. Besmart Global Indonesia — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> November 2025 – Sekarang
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Mengembangkan UI <strong>Supply Chain Management (SCM)</strong> berbasis arsitektur <strong>Microfrontend</strong> dengan React.js dan Reusable Components guna menjaga konsistensi tampilan serta mempercepat pengembangan <strong>25+ modul</strong>.</li>
+              <li>Mengintegrasikan RESTful API dengan layanan backend berbasis <strong>Microservices</strong> melalui proses pengambilan, pemetaan, dan pengelolaan data, termasuk implementasi robust <strong>Error Handling</strong> untuk menjaga keandalan komunikasi antarlayanan.</li>
+              <li>Menstandarkan komponen UI/UX dan mengembangkan fitur pengelolaan data kompleks pada lebih dari 25 modul, sehingga mendukung konsistensi implementasi antarmuka hingga tahap <strong>System Integration Testing (SIT)</strong> dan <strong>User Acceptance Testing (UAT)</strong>.</li>
+              <li>Mengidentifikasi dan memperbaiki temuan Bug serta Code Smells melalui <strong>SonarQube</strong>, kemudian melakukan Code Refactoring dan Code Cleansing untuk meningkatkan maintainability kode sebelum deployment ke production.</li>
+              <li>Menginisialisasi framework <strong>Jest</strong> dan menyusun Unit Test untuk memvalidasi fungsionalitas komponen, sehingga berhasil meningkatkan <strong>Code Coverage SonarQube hingga lebih dari 80%</strong>.</li>
+              <li>Mengimplementasikan standarisasi tipografi pada branch <code>CR_FONT</code> serta mendukung penyelesaian pengembangan fitur pada website <strong>Dealer Management System (DMS)</strong>.</li>
+              <li>Berkoordinasi dengan Business Analyst dalam menerjemahkan kebutuhan bisnis menjadi spesifikasi teknis serta berkolaborasi dengan QA untuk pengujian, debugging, dan penyelesaian bug sebelum rilis aplikasi.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-brands fa-react"></i> React.js</span>
+              <span class="tech-tag"><i class="fa-solid fa-cubes"></i> Microfrontend</span>
+              <span class="tech-tag"><i class="fa-solid fa-vial"></i> Jest (>80% Coverage)</span>
+              <span class="tech-tag"><i class="fa-solid fa-code"></i> SonarQube</span>
+              <span class="tech-tag"><i class="fa-solid fa-arrows-split-up-and-left"></i> Microservices API</span>
+              <span class="tech-tag"><i class="fa-solid fa-truck-ramp-box"></i> SCM & DMS</span>
+              <span class="tech-tag"><i class="fa-solid fa-people-group"></i> Agile / Scrum</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Besmart - Backend Developer -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Backend Developer
+                  <span class="timeline-badge badge-role">Microservices & Big Data Async</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-building"></i> PT. Besmart Global Indonesia — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> Juli 2025 – Oktober 2025
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Mengembangkan layanan backend <strong>Java 17</strong> dan <strong>Spring Boot 3.2.0</strong> dengan arsitektur <strong>Microservices</strong>, sehingga pemisahan fungsi dan integrasi lebih dari 10 modul berjalan stabil untuk tim operasional mitra pensiun.</li>
+              <li>Merancang dan membangun RESTful API untuk pengelolaan data nasabah, mitra, dan dana pensiun, sekaligus mengamankan akses endpoint menggunakan <strong>JWT Authentication</strong> dan <strong>Spring Security</strong>.</li>
+              <li>Mengembangkan fitur <strong>Asynchronous Data Processing</strong> untuk proses upload dan generate file Excel hingga <strong>100.000 baris data</strong>, sehingga pemrosesan data mitra pensiun seperti <strong>Taspen, Asabri, Dapenpos, dan Taspen Life</strong> dapat dilakukan secara efisien.</li>
+              <li>Mengoptimalkan query dan menyesuaikan struktur tabel pada <strong>PostgreSQL</strong>, serta menerapkan <strong>Server-Side Pagination</strong>, sehingga berhasil mempercepat waktu respon pengambilan data secara signifikan.</li>
+              <li>Menyusun dan mengeksekusi SQL Migration Scripts serta mengimplementasikan <strong>Audit Log dan Tracing</strong> untuk mendukung pencatatan aktivitas dan mempermudah penelusuran transaksi sistem.</li>
+              <li>Memvalidasi respons endpoint dan alur pertukaran data pada RESTful API antar layanan Microservices menggunakan Postman, mengurangi bug integrasi secara signifikan sebelum fase rilis.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-brands fa-java"></i> Java 17</span>
+              <span class="tech-tag"><i class="fa-solid fa-leaf"></i> Spring Boot 3.2.0</span>
+              <span class="tech-tag"><i class="fa-solid fa-network-wired"></i> Microservices</span>
+              <span class="tech-tag"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+              <span class="tech-tag"><i class="fa-solid fa-lock"></i> JWT & Spring Security</span>
+              <span class="tech-tag"><i class="fa-solid fa-bolt"></i> Async 100k Rows</span>
+              <span class="tech-tag"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Besmart - Frontend Developer (AngularJS) -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Frontend Developer
+                  <span class="timeline-badge badge-role">Enterprise DMS</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-building"></i> PT. Besmart Global Indonesia — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> April 2025 – Juli 2025
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Mengembangkan dan memelihara fitur antarmuka <strong>Dealer Management System (DMS)</strong> menggunakan <strong>AngularJS, JavaScript, HTML5, dan CSS3</strong> sesuai kebutuhan operasional diler.</li>
+              <li>Mengimplementasikan Change Request (CR) dengan menyesuaikan fungsionalitas aplikasi terhadap kebutuhan bisnis baru serta menjaga backward compatibility fitur yang telah berjalan.</li>
+              <li>Melakukan <strong>Advanced Debugging</strong>, menerapkan Error Handling, dan mengidentifikasi akar penyebab bug kritis untuk menjaga stabilitas aplikasi selama proses <strong>System Integration Testing (SIT)</strong>.</li>
+              <li>Berkoordinasi dengan tim pengembang dalam menindaklanjuti temuan pengujian hingga fitur siap divalidasi sebelum deployment rilis.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-brands fa-angular"></i> AngularJS</span>
+              <span class="tech-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="tech-tag"><i class="fa-solid fa-bug-slash"></i> Advanced Debugging</span>
+              <span class="tech-tag"><i class="fa-solid fa-car"></i> Dealer Management System</span>
+              <span class="tech-tag"><i class="fa-solid fa-check-double"></i> SIT Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Besmart - Support QA Tester -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Support Quality Assurance Tester
+                  <span class="timeline-badge badge-role">ERP Algorithms & Testing</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-building"></i> PT. Besmart Global Indonesia — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> Januari 2025 – Maret 2025
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Melaksanakan <strong>Functional Testing</strong> dan <strong>Regression Testing</strong> pada modul <strong>ERP Project Management</strong> dan <strong>Helpdesk</strong> guna memastikan fungsionalitas berjalan sesuai spesifikasi sistem.</li>
+              <li>Menyusun Test Cases dan mendokumentasikan Test Evidence menggunakan spreadsheet sebagai dasar validasi kesesuaian sistem terhadap User Manual dan kebutuhan bisnis.</li>
+              <li>Mengidentifikasi, mengklasifikasikan, dan melacak penyelesaian Bug serta System Improvement berdasarkan tingkat prioritas High, Medium, dan Low.</li>
+              <li><strong>Memvalidasi akurasi perhitungan algoritma komputasi kompleks</strong>: Gantt Chart, S-Curve, Projection End, dan Critical Path Method (CPM) melalui simulasi pemodelan rumus di Microsoft Excel, kemudian membandingkan hasilnya dengan logika aplikasi.</li>
+              <li>Melakukan Re-Testing pasca-deployment bersama tim Task Force untuk memastikan perbaikan bug berjalan tepat dan tidak menimbulkan regresi.</li>
+              <li>Berpartisipasi aktif dalam koordinasi Agile melalui Daily Stand-up Meeting bersama Project Manager, Business Analyst, dan tim Task Force.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-solid fa-vial-virus"></i> Functional & Regression Testing</span>
+              <span class="tech-tag"><i class="fa-solid fa-chart-gantt"></i> Gantt Chart & S-Curve</span>
+              <span class="tech-tag"><i class="fa-solid fa-diagram-project"></i> Critical Path Method (CPM)</span>
+              <span class="tech-tag"><i class="fa-solid fa-file-excel"></i> Excel Formula Modeling</span>
+              <span class="tech-tag"><i class="fa-solid fa-list-check"></i> Test Case Documentation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Besmart - Junior Developer -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Junior Developer
+                  <span class="timeline-badge badge-role">Core Banking End-to-End</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-building"></i> PT. Besmart Global Indonesia — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> Januari 2024 – Desember 2024
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Mengembangkan dan mengintegrasikan <strong>lebih dari 12 modul inti aplikasi Core Banking</strong> secara end-to-end menggunakan <strong>React.js</strong> untuk frontend, <strong>Java Spring Boot</strong> untuk backend, dan <strong>Microsoft SQL Server</strong> sebagai basis data.</li>
+              <li>Merancang pengelolaan status aplikasi menggunakan <strong>Redux</strong> dan React Hooks untuk menjaga konsistensi data antartab formulir dinamis, validasi Mandatory Fields, serta fitur Dynamic Search.</li>
+              <li>Mengembangkan komponen backend menggunakan pola arsitektur <strong>Controller, Service, Repository, dan Model Mapper</strong> untuk memisahkan tanggung jawab proses bisnis serta mempermudah pemeliharaan kode.</li>
+              <li>Mengimplementasikan <strong>SQL Server Stored Procedures</strong> untuk menjalankan kalkulasi otomatis simulasi deposito perbankan dan mengelola pemrosesan respons data dalam format JSON.</li>
+              <li>Menyusun Technical Documentation yang mencakup konfigurasi environment, alur integrasi REST API Endpoint, dan standar implementasi CRUD sebagai panduan teknis bagi tim pengembang.</li>
+              <li>Mengintegrasikan fungsionalitas frontend, backend, dan database perbankan untuk memastikan integritas transaksi data.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-brands fa-react"></i> React.js</span>
+              <span class="tech-tag"><i class="fa-solid fa-layer-group"></i> Redux</span>
+              <span class="tech-tag"><i class="fa-solid fa-leaf"></i> Java Spring Boot</span>
+              <span class="tech-tag"><i class="fa-solid fa-database"></i> SQL Server Stored Procedures</span>
+              <span class="tech-tag"><i class="fa-solid fa-building-columns"></i> Core Banking</span>
+              <span class="tech-tag"><i class="fa-solid fa-book"></i> Technical Documentation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. RSU Pindad -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Programmer (Magang Penelitian Tugas Akhir)
+                  <span class="timeline-badge badge-role">AI & Expert System</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-hospital"></i> Rumah Sakit Umum Pindad — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> Februari 2023 – Juni 2023
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Melakukan penelitian dan perancangan rekomendasi <strong>Sistem Pakar</strong> untuk memprediksi penyakit jantung koroner pada Rumah Sakit Umum Pindad.</li>
+              <li>Mengimplementasikan algoritma Machine Learning <strong>Naïve Bayes dengan Laplace Correction</strong> untuk mengatasi probabilitas nol dan meningkatkan presisi prediksi medis.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-solid fa-brain"></i> Naïve Bayes</span>
+              <span class="tech-tag"><i class="fa-solid fa-calculator"></i> Laplace Correction</span>
+              <span class="tech-tag"><i class="fa-solid fa-heart-pulse"></i> Healthcare Decision Support</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. PT Sang Byte Indonesia -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Front End Developer
+                  <span class="timeline-badge badge-role">Public Sector Web App</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-building"></i> PT Sang Byte Indonesia — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> Agustus 2022 – Desember 2022
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Mengembangkan website <strong>Sistem Informasi Manajemen Penyelesaian Laporan (SIMPeL 4 Ombudsman RI)</strong> menggunakan JavaScript dan <strong>Vue.js</strong> untuk membangun antarmuka aplikasi publik.</li>
+              <li>Mengimplementasikan pengembangan fitur berdasarkan <strong>Sprint Plan</strong> dalam metodologi Agile Development serta melakukan Bug Fixing secara proaktif.</li>
+              <li>Menerapkan prinsip Responsive Web Design agar tampilan dan fungsi website dapat diakses optimal melalui berbagai perangkat (Desktop, Tablet, Mobile).</li>
+              <li>Berkolaborasi intensif dengan Backend Developer dan Software Quality Assurance dalam proses pengujian kegunaan aplikasi dan validasi fitur.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-brands fa-vuejs"></i> Vue.js</span>
+              <span class="tech-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="tech-tag"><i class="fa-solid fa-landmark"></i> SIMPeL 4 Ombudsman RI</span>
+              <span class="tech-tag"><i class="fa-solid fa-mobile-screen"></i> Responsive Web</span>
+              <span class="tech-tag"><i class="fa-solid fa-rotate"></i> Agile Sprint</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. LPKIA Asisten Dosen -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Asisten Dosen
+                  <span class="timeline-badge badge-role">Academic Mentorship</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-graduation-cap"></i> Institut Digital Ekonomi LPKIA — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> Oktober 2020 – Juni 2022
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Mendampingi dosen dalam menyampaikan materi perkuliahan terkait pemrograman dan pengembangan teknologi informasi.</li>
+              <li>Membimbing mahasiswa dalam memahami konsep algoritma, sintaks bahasa pemrograman, dan menyelesaikan kendala error teknis melalui pendampingan praktikum.</li>
+              <li>Menjembatani komunikasi teknis antara dosen dan mahasiswa sehingga materi perkuliahan dapat diserap secara efektif.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-solid fa-chalkboard-user"></i> Teaching Assistance</span>
+              <span class="tech-tag"><i class="fa-solid fa-code"></i> Algorithm Mentorship</span>
+              <span class="tech-tag"><i class="fa-solid fa-comments"></i> Technical Communication</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Kelurahan Cicaheum -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role-title">
+                  Programmer
+                  <span class="timeline-badge badge-role">Government Administration</span>
+                </h3>
+                <div class="timeline-company">
+                  <i class="fa-solid fa-landmark-flag"></i> Kantor Kelurahan Cicaheum — Bandung, Indonesia
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar"></i> Agustus 2021 – September 2021
+              </div>
+            </div>
+
+            <ul class="timeline-bullet-list">
+              <li>Membantu pencatatan administrasi kependudukan dan pembuatan surat layanan warga pada bagian pelayanan publik.</li>
+              <li>Meningkatkan efisiensi pengelolaan kependudukan dengan merancang dan membangun sistem informasi pengolahan data kependudukan berbasis website menggunakan PHP dan MySQL.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag"><i class="fa-brands fa-php"></i> PHP</span>
+              <span class="tech-tag"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="tech-tag"><i class="fa-solid fa-id-card"></i> Data Kependudukan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Technical Skills Section
+       ========================================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-microchip"></i> Technical Capabilities</span>
+        <h2 class="section-title">Skills & <span>Technology Stack</span></h2>
+        <p class="section-subtitle">Daftar lengkap teknologi, framework, arsitektur, dan metodologi yang dikuasai untuk membangun produk perangkat lunak tangguh.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="skills-filter-nav">
+        <button class="skill-tab-btn active" data-filter="all">All Skills</button>
+        <button class="skill-tab-btn" data-filter="languages">Programming Languages</button>
+        <button class="skill-tab-btn" data-filter="frontend">Frontend & UI/UX</button>
+        <button class="skill-tab-btn" data-filter="backend">Backend & Architecture</button>
+        <button class="skill-tab-btn" data-filter="database">Databases & Storage</button>
+        <button class="skill-tab-btn" data-filter="testing">Testing & Code Quality</button>
+        <button class="skill-tab-btn" data-filter="tools">Tools & DevOps</button>
+        <button class="skill-tab-btn" data-filter="methods">Methodologies & Soft Skills</button>
+      </div>
+
+      <!-- Skills Category 1: Languages -->
+      <div class="skills-category-group" data-category="languages">
+        <h3 class="skills-category-title"><i class="fa-solid fa-code"></i> Programming Languages</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/Java.png" alt="Java"></div>
+            <div class="skill-name">Java</div>
+            <span class="skill-badge">Java 17 / Enterprise</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/typescript.png" alt="TypeScript"></div>
+            <div class="skill-name">TypeScript</div>
+            <span class="skill-badge">Strict Typing</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-brands fa-js" style="color: #f7df1e;"></i></div>
+            <div class="skill-name">JavaScript</div>
+            <span class="skill-badge">ES6+ / Modern</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/Python.png" alt="Python"></div>
+            <div class="skill-name">Python</div>
+            <span class="skill-badge">Scripting & ML</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/php.png" alt="PHP"></div>
+            <div class="skill-name">PHP</div>
+            <span class="skill-badge">Web Backend</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/sql.png" alt="SQL"></div>
+            <div class="skill-name">SQL</div>
+            <span class="skill-badge">Query & Procedures</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-brands fa-html5" style="color: #e34f26;"></i></div>
+            <div class="skill-name">HTML5 & CSS3</div>
+            <span class="skill-badge">Semantic & Responsive</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Category 2: Frontend -->
+      <div class="skills-category-group" data-category="frontend">
+        <h3 class="skills-category-title"><i class="fa-solid fa-desktop"></i> Frontend Development & UI/UX</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/reactjs.png" alt="React.js"></div>
+            <div class="skill-name">React.js</div>
+            <span class="skill-badge">Hooks & Components</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/vue.png" alt="Vue.js"></div>
+            <div class="skill-name">Vue.js</div>
+            <span class="skill-badge">Vue 2 / Vue 3</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-brands fa-angular" style="color: #dd0031;"></i></div>
+            <div class="skill-name">AngularJS</div>
+            <span class="skill-badge">DMS Enterprise</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-layer-group" style="color: #764abc;"></i></div>
+            <div class="skill-name">Redux</div>
+            <span class="skill-badge">State Management</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-cubes" style="color: #38bdf8;"></i></div>
+            <div class="skill-name">Microfrontends</div>
+            <span class="skill-badge">Modular SCM UI</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-arrows-spin" style="color: #10b981;"></i></div>
+            <div class="skill-name">Reusable UI Components</div>
+            <span class="skill-badge">Design Systems</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-mobile-screen-button" style="color: #f59e0b;"></i></div>
+            <div class="skill-name">Responsive Web Design</div>
+            <span class="skill-badge">Cross-Device</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/figma.png" alt="Figma"></div>
+            <div class="skill-name">Figma UI/UX</div>
+            <span class="skill-badge">Wireframe & Prototype</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Category 3: Backend -->
+      <div class="skills-category-group" data-category="backend">
+        <h3 class="skills-category-title"><i class="fa-solid fa-server"></i> Backend & Architecture</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-leaf" style="color: #6db33f;"></i></div>
+            <div class="skill-name">Java Spring Boot</div>
+            <span class="skill-badge">Spring Boot 3.2.0</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-network-wired" style="color: #3b82f6;"></i></div>
+            <div class="skill-name">Microservices Architecture</div>
+            <span class="skill-badge">Distributed Systems</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/node.png" alt="Node.js"></div>
+            <div class="skill-name">Node.js</div>
+            <span class="skill-badge">Runtime & APIs</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/expressjs.png" alt="Express.js"></div>
+            <div class="skill-name">Express.js</div>
+            <span class="skill-badge">REST API Services</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/laravel.png" alt="Laravel"></div>
+            <div class="skill-name">Laravel Framework</div>
+            <span class="skill-badge">MVC Backend</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-key" style="color: #f59e0b;"></i></div>
+            <div class="skill-name">JWT & Spring Security</div>
+            <span class="skill-badge">Endpoint Auth</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-bolt" style="color: #06b6d4;"></i></div>
+            <div class="skill-name">Async Processing</div>
+            <span class="skill-badge">100k Rows Excel</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-diagram-project" style="color: #a855f7;"></i></div>
+            <div class="skill-name">OOP & Clean Architecture</div>
+            <span class="skill-badge">Service / Repository</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Category 4: Database -->
+      <div class="skills-category-group" data-category="database">
+        <h3 class="skills-category-title"><i class="fa-solid fa-database"></i> Databases & Data Management</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-database" style="color: #336791;"></i></div>
+            <div class="skill-name">PostgreSQL</div>
+            <span class="skill-badge">Optimization & Indexing</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/sql.png" alt="SQL Server"></div>
+            <div class="skill-name">Microsoft SQL Server</div>
+            <span class="skill-badge">Enterprise Banking</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-database" style="color: #00758f;"></i></div>
+            <div class="skill-name">MySQL</div>
+            <span class="skill-badge">Relational DB</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/MongoDBS.png" alt="MongoDB"></div>
+            <div class="skill-name">MongoDB</div>
+            <span class="skill-badge">NoSQL Database</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-gears" style="color: #10b981;"></i></div>
+            <div class="skill-name">Stored Procedures</div>
+            <span class="skill-badge">Deposito Calculations</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-forward-fast" style="color: #38bdf8;"></i></div>
+            <div class="skill-name">Server-Side Pagination</div>
+            <span class="skill-badge">High Volume Data</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-file-code" style="color: #f59e0b;"></i></div>
+            <div class="skill-name">SQL Migration Scripts</div>
+            <span class="skill-badge">Audit Logs & Tracing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Category 5: Testing & QA -->
+      <div class="skills-category-group" data-category="testing">
+        <h3 class="skills-category-title"><i class="fa-solid fa-vial-circle-check"></i> Software Testing & Code Quality</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-vial" style="color: #c21325;"></i></div>
+            <div class="skill-name">Jest Framework</div>
+            <span class="skill-badge">&gt;80% Code Coverage</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-circle-notch" style="color: #4b89dc;"></i></div>
+            <div class="skill-name">SonarQube</div>
+            <span class="skill-badge">Bugs & Code Smells</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-vials" style="color: #10b981;"></i></div>
+            <div class="skill-name">Unit Testing</div>
+            <span class="skill-badge">Component Validation</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-clipboard-check" style="color: #8b5cf6;"></i></div>
+            <div class="skill-name">Functional & Regression</div>
+            <span class="skill-badge">ERP Modules</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-handshake" style="color: #f59e0b;"></i></div>
+            <div class="skill-name">SIT & UAT Support</div>
+            <span class="skill-badge">Integration Validation</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-bug-slash" style="color: #ef4444;"></i></div>
+            <div class="skill-name">Advanced Debugging</div>
+            <span class="skill-badge">Error Handling</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-broom" style="color: #06b6d4;"></i></div>
+            <div class="skill-name">Code Refactoring</div>
+            <span class="skill-badge">Clean Code Quality</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Category 6: Tools & DevOps -->
+      <div class="skills-category-group" data-category="tools">
+        <h3 class="skills-category-title"><i class="fa-solid fa-toolbox"></i> Tools & Developer Ecosystem</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-brands fa-git-alt" style="color: #f05032;"></i></div>
+            <div class="skill-name">Git & GitHub</div>
+            <span class="skill-badge">Version Control</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-paper-plane" style="color: #ff6c37;"></i></div>
+            <div class="skill-name">Postman</div>
+            <span class="skill-badge">API Integration Tests</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><img src="img/icon/android.png" alt="Android Studio"></div>
+            <div class="skill-name">Android Studio</div>
+            <span class="skill-badge">Mobile App Dev</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-file-excel" style="color: #107c41;"></i></div>
+            <div class="skill-name">Microsoft Excel</div>
+            <span class="skill-badge">Algorithm Modeling</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Category 7: Methodologies & Professional -->
+      <div class="skills-category-group" data-category="methods">
+        <h3 class="skills-category-title"><i class="fa-solid fa-user-check"></i> Methodologies & Professional Competencies</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-arrows-spin" style="color: #3b82f6;"></i></div>
+            <div class="skill-name">Agile & Scrum</div>
+            <span class="skill-badge">Sprint & Daily Stand-up</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-diagram-project" style="color: #10b981;"></i></div>
+            <div class="skill-name">SDLC Lifecycle</div>
+            <span class="skill-badge">End-to-End Delivery</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-lightbulb" style="color: #f59e0b;"></i></div>
+            <div class="skill-name">Problem Solving</div>
+            <span class="skill-badge">Critical Thinking</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-chart-line" style="color: #8b5cf6;"></i></div>
+            <div class="skill-name">Analytical Thinking</div>
+            <span class="skill-badge">Data & Flow Modeling</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-book-bookmark" style="color: #06b6d4;"></i></div>
+            <div class="skill-name">Technical Documentation</div>
+            <span class="skill-badge">API Contracts & Setup</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper"><i class="fa-solid fa-people-arrows" style="color: #ec4899;"></i></div>
+            <div class="skill-name">Cross-Team Collaboration</div>
+            <span class="skill-badge">BA, QA, PM Alignment</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Portfolio Section
+       ========================================================================== -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-folder-open"></i> Portfolio</span>
+        <h2 class="section-title">Featured <span>Projects & Systems</span></h2>
+        <p class="section-subtitle">Sistem berskala enterprise, arsitektur microfrontend, microservices backend, serta penelitian ilmiah yang telah dibangun dan diimplementasikan.</p>
+      </div>
+
+      <!-- Portfolio Filter Tabs -->
+      <div class="portfolio-filter-nav">
+        <button class="portfolio-tab-btn active" data-filter="all">Semua Proyek</button>
+        <button class="portfolio-tab-btn" data-filter="enterprise">Enterprise & Banking</button>
+        <button class="portfolio-tab-btn" data-filter="backend">Backend & Microservices</button>
+        <button class="portfolio-tab-btn" data-filter="research">Research & AI</button>
+        <button class="portfolio-tab-btn" data-filter="web">Web Apps & UI/UX</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- 1. SCM Microfrontend -->
+        <div class="project-card" data-category="enterprise">
+          <div class="project-image-box">
+            <img src="img/gambar.png" alt="Supply Chain Management Microfrontend">
+            <span class="project-category-badge">Enterprise SCM</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Supply Chain Management (SCM) Microfrontend System</h3>
+            <p class="project-description">
+              Arsitektur antarmuka rantai pasok berbasis microfrontend menggunakan React.js dengan Reusable Components untuk 25+ modul, integrasi RESTful API microservices, dan Jest unit test (&gt;80% coverage SonarQube).
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Microfrontend</span>
+              <span class="tech-tag">Jest</span>
+              <span class="tech-tag">SonarQube</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="scm-microfrontend">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Core Banking -->
+        <div class="project-card" data-category="enterprise">
+          <div class="project-image-box">
+            <img src="img/Screenshot(1078).png" alt="Core Banking Platform">
+            <span class="project-category-badge">Core Banking</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Core Banking Platform & Deposito Calculation Engine</h3>
+            <p class="project-description">
+              Pengembangan end-to-end 12+ modul perbankan inti mencakup rekening, deposito, formulir multitab dengan Redux, backend Java Spring Boot, dan SQL Server Stored Procedures untuk simulasi kalkulasi otomatis.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">Redux</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="core-banking">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Pension Partner Microservices -->
+        <div class="project-card" data-category="backend enterprise">
+          <div class="project-image-box">
+            <img src="img/postman.png" alt="Pension Partner Microservices">
+            <span class="project-category-badge">High-Volume Microservices</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Pension Partner Microservices & 100k Row Async Engine</h3>
+            <p class="project-description">
+              Backend Java 17 & Spring Boot 3.2 untuk mitra pensiun nasional (Taspen, Asabri, Dapenpos) dengan JWT, query optimization PostgreSQL, dan asynchronous data processing hingga 100.000 baris data Excel.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Java 17</span>
+              <span class="tech-tag">Spring Boot 3.2</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Async Engine</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="pension-backend">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. SIMPeL 4 Ombudsman RI -->
+        <div class="project-card" data-category="enterprise web">
+          <div class="project-image-box">
+            <img src="img/pengaduan.png" alt="SIMPeL 4 Ombudsman RI">
+            <span class="project-category-badge">Government / Ombudsman RI</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SIMPeL 4 Ombudsman Republik Indonesia</h3>
+            <p class="project-description">
+              Sistem Informasi Manajemen Penyelesaian Laporan pengaduan masyarakat nasional berbasis Vue.js dan JavaScript. Dibangun dengan alur kerja Agile Sprint Plan dan antarmuka responsif ramah pengguna.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Agile</span>
+              <span class="tech-tag">Responsive</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="ombudsman-simpel">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Coronary Heart Disease Machine Learning -->
+        <div class="project-card" data-category="research">
+          <div class="project-image-box">
+            <img src="img/naivebayesdenganlaplace.png" alt="Prediksi Penyakit Jantung Koroner Naive Bayes">
+            <span class="project-category-badge">AI & Healthcare Research</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Coronary Heart Disease Prediction with Naïve Bayes & Laplace Correction</h3>
+            <p class="project-description">
+              Riset sistem pakar prediksi penyakit jantung koroner pada RSU Pindad menggunakan algoritma Naïve Bayes dengan Laplace Correction untuk menangani probabilitas nol dan meningkatkan keakuratan diagnosa klinis.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Naïve Bayes</span>
+              <span class="tech-tag">Laplace Correction</span>
+              <span class="tech-tag">RSU Pindad</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="coronary-heart-prediction">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Dealer Management System (DMS) -->
+        <div class="project-card" data-category="enterprise">
+          <div class="project-image-box">
+            <img src="img/gambar.png" alt="Dealer Management System">
+            <span class="project-category-badge">Enterprise DMS</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Dealer Management System (DMS) Enterprise Platform</h3>
+            <p class="project-description">
+              Pengembangan antarmuka sistem operasional diler menggunakan AngularJS, implementasi Change Request (CR) tanpa mengorbankan kompatibilitas, advanced debugging, dan standarisasi tipografi CR_FONT.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">AngularJS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">SIT Testing</span>
+              <span class="tech-tag">Debugging</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="dealer-management">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. ERP Project Management QA & CPM -->
+        <div class="project-card" data-category="research enterprise">
+          <div class="project-image-box">
+            <img src="img/akurasimetode.png" alt="ERP CPM Algorithm Validation">
+            <span class="project-category-badge">QA & Mathematical Validation</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">ERP Project Management & Critical Path Method (CPM) QA Validation</h3>
+            <p class="project-description">
+              Validasi akurasi komputasi algoritma matematis Gantt Chart, S-Curve, Projection End, dan CPM melalui simulasi rumus Excel dan Functional/Regression Testing pada ERP Project Management.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Critical Path Method</span>
+              <span class="tech-tag">Gantt Chart</span>
+              <span class="tech-tag">S-Curve</span>
+              <span class="tech-tag">Excel Modeling</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="cpm-qa-engine">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Kelurahan Cicaheum -->
+        <div class="project-card" data-category="web">
+          <div class="project-image-box">
+            <img src="img/kelurahan.png" alt="Sistem Informasi Kependudukan">
+            <span class="project-category-badge">Public Administration</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sistem Informasi Pengolahan Data Kependudukan</h3>
+            <p class="project-description">
+              Aplikasi digitalisasi data kependudukan dan pencetakan surat administrasi warga pada Kantor Kelurahan Cicaheum dengan PHP & MySQL guna mempercepat alur pelayanan publik.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Government</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="kelurahan-cicaheum">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Penjualan HP -->
+        <div class="project-card" data-category="web">
+          <div class="project-image-box">
+            <img src="img/penjualan.png" alt="Sistem Informasi Penjualan Handphone">
+            <span class="project-category-badge">POS & Inventory</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sistem Informasi Penjualan Handphone & Inventori</h3>
+            <p class="project-description">
+              Platform Point of Sale (POS) dan manajemen stok inventori toko handphone dengan laporan laba rugi berkala berbasis web.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Inventory POS</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="penjualan-hp">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Rental Mobil API -->
+        <div class="project-card" data-category="backend">
+          <div class="project-image-box">
+            <img src="img/postman.png" alt="Web Service API Rental Mobil">
+            <span class="project-category-badge">REST API Services</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Web Service API Rental Mobil</h3>
+            <p class="project-description">
+              Arsitektur RESTful API untuk pemesanan armada rental mobil, tracking ketersediaan jadwal kendaraan, dan pengujian endpoint terstruktur menggunakan Postman.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">RESTful API</span>
+              <span class="tech-tag">Postman</span>
+              <span class="tech-tag">JSON</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="rental-mobil-api">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Antar Laundry UI/UX -->
+        <div class="project-card" data-category="web">
+          <div class="project-image-box">
+            <img src="img/antarlaundry.png" alt="UI/UX Antar Laundry">
+            <span class="project-category-badge">UI/UX & Scientific Paper</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">UI/UX Design & Sistem Informasi Antar Laundry</h3>
+            <p class="project-description">
+              Desain prototipe aplikasi antar jemput laundry yang dipublikasikan dalam artikel jurnal ilmiah mengenai sistem informasi pengelolaan jasa laundry berbasis website.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">UI/UX Design</span>
+              <span class="tech-tag">Journal Publication</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="antar-laundry">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12. Harakiri WordPress -->
+        <div class="project-card" data-category="web">
+          <div class="project-image-box">
+            <img src="img/harakiri.png" alt="Ecommerce CMS WordPress">
+            <span class="project-category-badge">CMS E-Commerce</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Ecommerce Harakiri CMS WordPress</h3>
+            <p class="project-description">
+              Pembangunan toko daring komprehensif menggunakan WordPress & WooCommerce dengan katalog produk, shopping cart, dan kalkulasi ongkos kirim.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">WordPress</span>
+              <span class="tech-tag">WooCommerce</span>
+              <span class="tech-tag">E-Commerce</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" data-project="ecommerce-wordpress">
+                <span>View Details</span> <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Education & Publications Section
+       ========================================================================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Education & Research</span>
+        <h2 class="section-title">Academic <span>Background</span></h2>
+        <p class="section-subtitle">Fondasi akademis di bidang Sistem Informasi dengan fokus pada riset Machine Learning dan pengembangan perangkat lunak.</p>
+      </div>
+
+      <div class="education-grid">
+        <!-- University Degree -->
+        <div class="education-card">
+          <div class="education-header">
+            <div>
+              <h3 class="education-institution">Institut Digital Ekonomi LPKIA</h3>
+              <div class="education-degree">S1 Sistem Informasi | IPK 3,51 (Sangat Memuaskan)</div>
+            </div>
+            <span class="education-meta">2019 – 2023</span>
+          </div>
+
+          <ul class="education-bullets">
+            <li>Menyelesaikan proyek akhir skripsi berjudul: <strong>Implementasi Metode Naïve Bayes dengan Laplace Correction untuk Memprediksi Penyakit Jantung Koroner pada Rumah Sakit Umum Pindad</strong>.</li>
+            <li>Menyusun dan mempublikasikan artikel jurnal ilmiah mengenai <strong>Sistem Informasi Pengelolaan Jasa Laundry Berbasis Website</strong>.</li>
+            <li>Mengikuti workshop profesional pengembangan website menggunakan WordPress serta pelatihan teknologi 3D Printing.</li>
+            <li>Dipercaya menjadi Asisten Dosen selama 2 tahun akademik untuk membimbing praktikum pemrograman mahasiswa.</li>
+          </ul>
+        </div>
+
+        <!-- High School Education -->
+        <div class="education-card">
+          <div class="education-header">
+            <div>
+              <h3 class="education-institution">SMK Medikacom Bandung</h3>
+              <div class="education-degree">Teknik Komputer Jaringan (TKJ)</div>
+            </div>
+            <span class="education-meta">2016 – 2019</span>
+          </div>
+
+          <ul class="education-bullets">
+            <li>Mempelajari fundamental jaringan komputer, topologi, routing protokol, dan administrasi server.</li>
+            <li>Mengadakan dan menjuarai kegiatan perlombaan konfigurasi Linux Debian Server antarsiswa satu angkatan.</li>
+            <li>Membangun landasan kuat dalam logika algoritma dan pemecahan masalah sistematis di bidang teknologi informasi.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact Section
+       ========================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-regular fa-paper-plane"></i> Get In Touch</span>
+        <h2 class="section-title">Let's Discuss <span>Your Next Big Project</span></h2>
+        <p class="section-subtitle">Tertarik untuk mendiskusikan peluang karir, pengembangan sistem enterprise, atau kolaborasi teknologi? Silakan hubungi saya.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Details Card -->
+        <div class="contact-info-card">
+          <h3 class="contact-info-title">Informasi Kontak Langsung</h3>
+          <p class="contact-info-desc">
+            Saya siap membuka diskusi untuk posisi Full-Time Software Engineer, Frontend/Backend Specialist, atau peluang proyek arsitektur enterprise.
+          </p>
+
+          <div class="contact-methods">
+            <div class="contact-method-item">
+              <div class="method-icon-info">
+                <div class="method-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                  <div class="method-label">Email Utama</div>
+                  <div class="method-value">ridwandiansyah2@gmail.com</div>
+                </div>
+              </div>
+              <button class="btn-copy" data-copy="ridwandiansyah2@gmail.com" title="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="method-icon-info">
+                <div class="method-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                  <div class="method-label">Email Alternatif</div>
+                  <div class="method-value">ridwandiansyah3@gmail.com</div>
+                </div>
+              </div>
+              <button class="btn-copy" data-copy="ridwandiansyah3@gmail.com" title="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="method-icon-info">
+                <div class="method-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                  <div class="method-label">WhatsApp / Telepon</div>
+                  <div class="method-value">+62 877-3551-8578</div>
+                </div>
+              </div>
+              <button class="btn-copy" data-copy="+6287735518578" title="Copy Number">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="method-icon-info">
+                <div class="method-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div>
+                  <div class="method-label">Lokasi</div>
+                  <div class="method-value">Bandung, Jawa Barat, Indonesia</div>
+                </div>
+              </div>
+              <a href="https://maps.google.com/?q=Bandung,Indonesia" target="_blank" class="btn-copy" title="Open Map">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://wa.me/6287735518578?text=Halo%20Muhammad%20Ridwan%20Diansyah,%20saya%20tertarik%20untuk%20berdiskusi%20mengenai%20peluang%20kerja/proyek." target="_blank" class="btn btn-primary" style="flex: 1;">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Chat WhatsApp</span>
+            </a>
+            <a href="img/CV - Muhammad Ridwan Diansyah.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Message Form -->
+        <div class="contact-form-card">
+          <form class="contact-form" id="contact-form">
+            <h3 class="contact-info-title">Kirimkan Pesan</h3>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Nama Lengkap</label>
+              <input class="form-control" id="contact-name" type="text" placeholder="Masukkan nama Anda" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Alamat Email</label>
+              <input class="form-control" id="contact-email" type="email" placeholder="nama@perusahaan.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Subjek / Topik</label>
+              <input class="form-control" id="contact-subject" type="text" placeholder="Contoh: Kesempatan Kerja / Proyek Enterprise">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Pesan Anda</label>
+              <textarea class="form-control" id="contact-message" rows="4" placeholder="Ceritakan kebutuhan atau pertanyaan Anda..." required></textarea>
+            </div>
+
+            <div class="form-submit-row">
+              <button class="btn btn-primary" id="btn-send-email" type="button" style="flex: 1;">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Kirim via Email</span>
+              </button>
+              <button class="btn btn-secondary" id="btn-send-wa" type="button">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Kirim via WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Project Details Modal
+       ========================================================================== -->
+  <div class="project-modal" id="project-modal">
+    <div class="modal-content-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-image-wrapper">
+        <img src="" alt="" id="modal-image">
+      </div>
+
+      <div class="modal-body">
+        <h3 class="modal-title" id="modal-title">Project Title</h3>
+        <div class="modal-tags" id="modal-tags"></div>
+        <p class="modal-desc" id="modal-desc">Project description text goes here.</p>
+        <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">Key Engineering Highlights:</h4>
+        <ul class="modal-features-list" id="modal-features"></ul>
+      </div>
+    </div>
   </div>
-  <!-- endremoveIf(customizerDist)-->
-  <!-- Scripts-->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="js/animatedModal.js"></script>
-  <script src="js/tiny-slider.js"></script>
-  <script src="js/lity.min.js"></script>
-  <script src="js/simplebar.min.js"></script>
-  <script src="js/jquery.mb.YTPlayer.min.js"></script>
-  <script src="js/main.js"></script>
-  <!-- Custom JS (Add your custom JS scripts to this file)-->
-  <script src="js/custom.js"></script>
-  <!-- removeIf(customizerDist)-->
-  <script src="./customizer/main.js"></script>
-  <!-- endremoveIf(customizerDist)-->
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="gradient-text">Muhammad Ridwan Diansyah</span>
+        </div>
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="footer-copyright">
+          &copy; 2026 Muhammad Ridwan Diansyah. Crafted with modern web standards for startups and enterprise impact.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modern Interactive JavaScript -->
+  <script src="js/modern.js"></script>
 </body>
-
-
-<!-- Mirrored from exill.dk/demo/kitzu/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2020 17:00:43 GMT -->
 </html>
