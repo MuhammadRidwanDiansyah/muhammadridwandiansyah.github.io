@@ -16,34 +16,38 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* ==========================================================================
-   1. Theme Toggle (Dark / Light Mode)
+   1. Theme Toggle (Dark / Light Mode) - Default: Light Mode
    ========================================================================== */
 function initTheme() {
   const toggleBtn = document.getElementById('theme-toggle');
   if (!toggleBtn) return;
 
-  const currentTheme = localStorage.getItem('mrd_theme') || 'dark';
+  // Default to 'light' mode
+  const currentTheme = localStorage.getItem('mrd_theme') || 'light';
   document.documentElement.setAttribute('data-theme', currentTheme);
   updateThemeIcon(currentTheme);
 
   toggleBtn.addEventListener('click', () => {
-    const activeTheme = document.documentElement.getAttribute('data-theme');
+    const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
     const newTheme = activeTheme === 'light' ? 'dark' : 'light';
     
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('mrd_theme', newTheme);
     updateThemeIcon(newTheme);
-    showToast(`Switched to ${newTheme} mode`);
+    showToast(`Mode ${newTheme === 'light' ? 'Terang (Light)' : 'Gelap (Dark)'} diaktifkan`);
   });
 }
 
 function updateThemeIcon(theme) {
   const icon = document.querySelector('#theme-toggle i');
+  const toggleBtn = document.getElementById('theme-toggle');
   if (!icon) return;
   if (theme === 'light') {
     icon.className = 'fa-solid fa-moon';
+    if (toggleBtn) toggleBtn.title = 'Beralih ke Dark Mode';
   } else {
     icon.className = 'fa-solid fa-sun';
+    if (toggleBtn) toggleBtn.title = 'Beralih ke Light Mode';
   }
 }
 
