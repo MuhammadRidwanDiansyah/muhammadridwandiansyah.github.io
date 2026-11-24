@@ -430,9 +430,13 @@ ul {
 .hero-bio {
   font-size: 1.08rem;
   color: var(--text-secondary);
-  line-height: 1.7;
+  line-height: 1.75;
   margin-bottom: 2rem;
   max-width: 620px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-wrap: pretty;
+  hyphens: auto;
 }
 
 .hero-bio strong {
@@ -616,6 +620,9 @@ ul {
 
 .about-story p {
   margin-bottom: 1.25rem;
+  text-align: justify;
+  text-justify: inter-word;
+  text-wrap: pretty;
 }
 
 .about-highlight-box {
